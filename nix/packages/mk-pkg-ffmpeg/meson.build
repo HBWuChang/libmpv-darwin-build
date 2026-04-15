@@ -166,7 +166,7 @@ audio_default_options = [
     # filters
     '--enable-filter=overlay',
     '--enable-filter=equalizer',
-    # '--enable-filter=aformat',
+    '--enable-filter=aformat',
 ]
 
 # https://github.com/media-kit/libmpv-android-video-build/blob/7353af784df9bab3256acd8d90f208024d16ab96/buildscripts/flavors/default.sh
@@ -272,7 +272,7 @@ audio_full_options = [
     # filters
     '--enable-filter=overlay',
     '--enable-filter=equalizer',
-    # '--enable-filter=aformat',
+    '--enable-filter=aformat',
 
     # TODO: `media_kit` checks the presence of the h264 decoder to determine if
     # `ffmpeg` is an audio or video variant, so we disable it for the audio
